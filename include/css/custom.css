@@ -61,9 +61,9 @@ transition: all 0.4s ease-in-out;
 
 .shape-text{
 	color:#fff; font-size:12px; font-weight:bold; position:relative; right:-40px; top:2px; white-space: nowrap;
-	-ms-transform:rotate(30deg); /* IE 9 */
-	-o-transform: rotate(360deg);  /* Opera 10.5 */
-	-webkit-transform:rotate(30deg); /* Safari and Chrome */
+	-ms-transform:rotate(30deg); 
+	-o-transform: rotate(360deg);  
+	-webkit-transform:rotate(30deg); 
 	transform:rotate(30deg);
 }	
 .offer-content{
