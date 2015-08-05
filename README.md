@@ -3,7 +3,7 @@ GUSAC
 Please visit www.gusac.org
 
 The entire website has been written from scratch and the website code is
-open under the GPL v3.0 License. 
+open under the GPL v3.0 License.
 
 Technologies used
 =================
@@ -16,11 +16,11 @@ framework Bootstrap V3.1.1 and Various Web Technologies used are :
 	# > Jquery
 	# > Ajax
 	# > PHP
-	# > MySql 
+	# > MySql
 
 Fork Us
 =========
-Please if any kind of bugs or errors are encountered while viewing the 
+Please if any kind of bugs or errors are encountered while viewing the
 website, then Clone the Source and add a pull request so that we can make
 sure the Website is free from errors.
 
