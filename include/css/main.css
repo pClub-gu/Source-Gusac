@@ -1,3 +1,18 @@
+/* Guiding Index for Style
+ * =======================
+ *
+ * 0. Reset
+ * 1. Imports
+ * 2. Elements
+ * 3. Id, classes
+ * 4. Pseudo classes
+ * 5. Media queries
+ */
+
+/* Imports */
+
+
+/* Elements */
 html,
 button,
 input,
@@ -7,21 +22,17 @@ textarea {
 }
 
 body {
-    font-size: 1em;
-    line-height: 1.4;
-}
-
-
-::-moz-selection {
-    background: #f2c2c9;
-    color: #a4003a;
-    text-shadow: none;
-}
-
-::selection {
-    background: #16a085;
-    color: #a4003a;
-    text-shadow: none;
+    font-family: "Titillium Web";
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    background: -webkit-linear-gradient(#D7D3C8, #F6F4EC);
+    background: -o-linear-gradient(#D7D3C8, #F6F4EC);
+    background: -moz-linear-gradient(#D7D3C8, #F6F4EC);
+    background: linear-gradient(#D7D3C8, #F6F4EC);
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    margin: 0;
 }
 
 #wrap {
@@ -81,21 +92,6 @@ textarea {
 
 .orange {
     color: orange;
-}
-
-html,
-body {
-    height: 100%;
-}
-
-body {
-    font-family: "Lato";
-    font-weight: 300;
-    font-size: 16px;
-    color: #555;
-
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
 }
 
 .col-md-4 {
@@ -163,7 +159,7 @@ a img {
 }
 s
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway";
+    font-family: inherit;
     font-weight: 300;
     color: #333;
 }
@@ -193,7 +189,7 @@ em {
 pre {
     background: #ebebeb;
     border: none;
-    font-family: "Monaco";
+    font-family: inherit;
     font-size: 16px;
     color: #666;
     padding: 20px;
@@ -266,11 +262,7 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-
-
-
 #headerwrap {
-	background: url(../img/header_bg.jpg) no-repeat center top;
 	margin-top: -50px;
 	padding-top:120px;
 	text-align:center;
@@ -349,17 +341,7 @@ a:after {
 #footerwrap h4 {
 	color: white;
 }
-
-
-
-.white h1 {
-	padding-top: 35px;
-}
-
-.white p {
-	padding-top: 25px;
-}
-
+2
 .section-divider {
     z-index: 999;
     width: 100%;
@@ -403,38 +385,7 @@ a:after {
 	font-size: 25px;
 }
 
-
-
-.divider1 {
-	background-image: url('../img/bg/divider5.jpg')
-}
-
-
-.blog-bg {
-	background: #2b2b2b;
-	padding-right: 0px;
-	padding-left: 0px;
-
-}
-
-.blog-bg h4 {
-	color: #dadada;
-	padding-top: 0px;
-}
-
-.blog-bg h5 {
-	color: #dadada;
-	font-size: 11px;
-}
-
-.blog-content {
-	padding-top: 10px;
-	background: #f2f2f2;
-}
-
-
-
-/* Credits to this part : Internet */
+/* Media queries */
 
 @media screen and (max-width:1050px), screen and (max-device-width:1050px){
 	body .header{background-attachment: scroll;}
